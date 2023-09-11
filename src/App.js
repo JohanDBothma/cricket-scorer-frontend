@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Form from './components/Form/Form';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <header className="">
         <h1 className='text-3xl font-bold underline'>Home</h1>
       </header>
-      <Form />
+      {/* <Carousel /> */}
     </div>
   );
 }

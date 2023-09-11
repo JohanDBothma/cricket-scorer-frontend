@@ -15,3 +15,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer components {
+
+  .slider {
+    @apply h-96 md:h-[45rem];
+
+    .slider-text {
+      @apply p-4 h-full md:flex md:flex-col justify-center text-white w-1/2
+    }
+
+    .slider-heading {
+      @apply pb-2 sm:pb-12 text-3xl font-bold text-blue-400
+    }
+
+    .slider-body {
+      @apply pl-2 sm:pl-12 text-lg
+    }
+  }
+}
